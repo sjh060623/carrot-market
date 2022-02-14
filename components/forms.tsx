@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 
 export default function Forms() {
-  const { register, watch } = useForm();
+  const { register } = useForm();
   return (
     <form>
       <input
@@ -10,7 +10,7 @@ export default function Forms() {
         placeholder="Username"
         required
       />
-      <input {...register("email")} type="email" placeholder="Email" required />
+      <input {...register("email")} type="Email" placeholder="Email" required />
       <input
         {...register("password")}
         type="password"
