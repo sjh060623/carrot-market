@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
 import Link from "next/link";
 import Layout from "../../components/layout";
 
-const Profile: NextPage = () => {
+const Profile = () => {
   return (
     <Layout hasTabBar title="나의 캐럿">
       <div className="px-4">

@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
 import Button from "../../components/button";
 import Input from "../../components/input";
 import Layout from "../../components/layout";
 
-const EditProfile: NextPage = () => {
+const EditProfile = () => {
   return (
     <Layout canGoBack title="Edit Profile">
       <form className="py-10 px-4 space-y-4">

@@ -1,10 +1,6 @@
-interface TextAreaProps {
-  label?: string;
-  name?: string;
-  [key: string]: any;
-}
 
-export default function TextArea({ label, name, ...rest }: TextAreaProps) {
+
+export default function TextArea({ label, name, ...rest }) {
   return (
     <div>
       {label ? (

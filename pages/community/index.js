@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
 import Link from "next/link";
 import FloatingButton from "../../components/floating-button";
 import Layout from "../../components/layout";
 
-const Community: NextPage = () => {
+const Community = () => {
   return (
     <Layout hasTabBar title="동네생활">
       <div className="space-y-4 divide-y-[2px]">

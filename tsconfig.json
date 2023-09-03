@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/profile/sold.js", "pages/profile/loved.js", "pages/profile/index.js", "pages/profile/edit.js", "pages/profile/bought.js", "pages/live/index.js", "pages/live/create.js", "pages/live/[id].js", "pages/items/upload.js", "pages/items/[id].js", "pages/community/write.js", "pages/community/index.js", "pages/community/[id].js", "pages/chats/index.js", "pages/chats/[id].js", "components/button.js", "components/floating-button.js", "components/input.js", "components/item.js", "components/layout.js", "components/message.js", "components/textarea.js", "libs/utils.js"],
   "exclude": ["node_modules"]
 }

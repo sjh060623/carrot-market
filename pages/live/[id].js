@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
+
 import Layout from "../../components/layout";
 import Message from "../../components/message";
 
-const Stream: NextPage = () => {
+const Stream = () => {
   return (
     <Layout canGoBack>
       <div className="py-10 px-4  space-y-4">

@@ -1,10 +1,9 @@
-import type { NextPage } from "next";
 import { useState } from "react";
 import Button from "../components/button";
 import Input from "../components/input";
 import { cls } from "../libs/utils";
 
-const Enter: NextPage = () => {
+const Enter = () => {
   const [method, setMethod] = useState<"email" | "phone">("email");
   const onEmailClick = () => setMethod("email");
   const onPhoneClick = () => setMethod("phone");

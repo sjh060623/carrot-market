@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
 import Link from "next/link";
 import FloatingButton from "../../components/floating-button";
 import Layout from "../../components/layout";
 
-const Live: NextPage = () => {
+const Live = () => {
   return (
     <Layout hasTabBar title="라이브">
       <div className=" divide-y-[1px] space-y-4">
